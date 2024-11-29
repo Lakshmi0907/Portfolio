@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import fullstack from "../../assets/images/fullstack_image.png";
 export default class FullStackImg extends Component {
   render() {
-    const theme = this.props.theme;
+    // const theme = this.props.theme;
     return (
       <img
         src={fullstack}

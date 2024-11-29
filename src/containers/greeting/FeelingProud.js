@@ -5,7 +5,7 @@ import homePageLogo from "../../assets/images/homepage-image.png";
 
 class FeelingProud extends Component {
   render() {
-    const theme = this.props.theme;
+    // const theme = this.props.theme;
     return (
       <img
         src={homePageLogo}
