@@ -1,0 +1,102 @@
+.contact-main {
+  min-width: 100vw;
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* margin-bottom: 30px; */
+}
+
+.basic-contact {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 120px;
+  /* justify-content: space-between; */
+
+}
+
+.contact-heading-div {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center the image and text horizontally */
+  text-align: center; /* Center the text */
+  gap: 20px;
+}
+
+/* .contact-heading-div > * {
+  flex: 1;
+} */
+
+.contact-heading-img-div {
+  width:100%;
+  display:flex;
+  justify-content: center;
+  max-width: 100%; /* Allow width to adjust automatically */
+  max-height: 200px; /* Set height to 100px */
+  overflow: hidden;
+}
+
+.contact-profile-img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.contact-heading-text-div {
+  display:  flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.contact-heading-img-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  /* text-align: center; */
+  margin: 0;
+}
+
+.contact-header-detail-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans Medium";
+}
+
+@media (max-width: 1380px) {
+  .contact-heading-text {
+    font-size: 50px;
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-heading-text {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+
+  .contact-heading-div {
+    flex-direction: column;
+  }
+
+  .contact-header-detail-text {
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+}
